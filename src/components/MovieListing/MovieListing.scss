@@ -1,0 +1,26 @@
+@import "../../common/colors.scss";
+.movie-wrapper{
+    width:70vw;
+    display: flex;
+    justify-content: center;
+ }
+ .movie-list{
+    h2{
+        font-size: 25px;
+        margin-bottom:10px;
+        color:$font-secondary;
+    }
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.movies-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:22px;
+    justify-content:center;
+
+}

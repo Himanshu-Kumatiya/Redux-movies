@@ -1,0 +1,12 @@
+@import "./common/colors.scss";
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: $primary-color;
+}
+.App{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,35 @@
+.movie-section
+{
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+}
+.movie-left{
+    display: flex;
+    flex-direction: column;
+    width:45vw;
+    gap:20px;
+    
+}
+h1
+{
+    color:rgb(241, 178, 178);
+    font-size: 47px;
+}
+.movie-rating{
+    gap: 20px;
+    font-size: 20px;
+    color:rgb(231, 147, 72);   
+}
+.movie-plot{
+    font-size: 25px;
+    color:rgb(213, 230, 225);   
+}
+.movie-info{
+    font-size: 22px;
+    color:aquamarine; 
+    display: flex;
+    flex-direction: column;  
+}
